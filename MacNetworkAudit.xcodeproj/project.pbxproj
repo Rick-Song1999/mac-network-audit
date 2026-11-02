@@ -1,0 +1,79 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {};
+	objectVersion = 60;
+	objects = {
+
+		A00000000000000000000001 /* MacNetworkAuditApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00000000000000000000001 /* MacNetworkAuditApp.swift */; };
+		A00000000000000000000002 /* CheckID.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00000000000000000000002 /* CheckID.swift */; };
+		A00000000000000000000003 /* CheckResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00000000000000000000003 /* CheckResult.swift */; };
+		A00000000000000000000004 /* MonitorSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00000000000000000000004 /* MonitorSettings.swift */; };
+		A00000000000000000000005 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00000000000000000000005 /* DashboardView.swift */; };
+		A00000000000000000000006 /* SystemChecks.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00000000000000000000007 /* SystemChecks.swift */; };
+		A00000000000000000000007 /* HistoryStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00000000000000000000008 /* HistoryStore.swift */; };
+		A00000000000000000000008 /* NetworkChecks.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00000000000000000000009 /* NetworkChecks.swift */; };
+		A00000000000000000000009 /* STUNProbe.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00000000000000000000010 /* STUNProbe.swift */; };
+		A00000000000000000000010 /* AuditEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00000000000000000000011 /* AuditEngine.swift */; };
+		A00000000000000000000011 /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00000000000000000000012 /* AppModel.swift */; };
+		A00000000000000000000012 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00000000000000000000013 /* SettingsView.swift */; };
+		A00000000000000000000013 /* InterfaceLanguage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00000000000000000000014 /* InterfaceLanguage.swift */; };
+		A00000000000000000000014 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F00000000000000000000015 /* Localizable.strings */; };
+		A00000000000000000000015 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F00000000000000000000018 /* InfoPlist.strings */; };
+		A00000000000000000000017 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F00000000000000000000022 /* Assets.xcassets */; };
+		A00000000000000000000018 /* DNSLeakProbe.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00000000000000000000023 /* DNSLeakProbe.swift */; };
+		A00000000000000000000019 /* WebKitProfileProbe.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00000000000000000000024 /* WebKitProfileProbe.swift */; };
+		A00000000000000000000020 /* DeviceLocationProbe.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00000000000000000000025 /* DeviceLocationProbe.swift */; };
+
+		B00000000000000000000001 /* Sources */ = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (A00000000000000000000001, A00000000000000000000002, A00000000000000000000003, A00000000000000000000004, A00000000000000000000005, A00000000000000000000006, A00000000000000000000007, A00000000000000000000008, A00000000000000000000009, A00000000000000000000010, A00000000000000000000011, A00000000000000000000012, A00000000000000000000013, A00000000000000000000018, A00000000000000000000019, A00000000000000000000020,); runOnlyForDeploymentPostprocessing = 0; };
+		B00000000000000000000002 /* Frameworks */ = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+		B00000000000000000000003 /* Resources */ = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (A00000000000000000000014, A00000000000000000000015, A00000000000000000000017,); runOnlyForDeploymentPostprocessing = 0; };
+
+		F00000000000000000000001 /* MacNetworkAuditApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacNetworkAuditApp.swift; sourceTree = "<group>"; };
+		F00000000000000000000002 /* CheckID.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckID.swift; sourceTree = "<group>"; };
+		F00000000000000000000003 /* CheckResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckResult.swift; sourceTree = "<group>"; };
+		F00000000000000000000004 /* MonitorSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonitorSettings.swift; sourceTree = "<group>"; };
+		F00000000000000000000005 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		F00000000000000000000006 /* MacNetworkAudit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacNetworkAudit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F00000000000000000000007 /* SystemChecks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemChecks.swift; sourceTree = "<group>"; };
+		F00000000000000000000008 /* HistoryStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryStore.swift; sourceTree = "<group>"; };
+		F00000000000000000000009 /* NetworkChecks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkChecks.swift; sourceTree = "<group>"; };
+		F00000000000000000000010 /* STUNProbe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = STUNProbe.swift; sourceTree = "<group>"; };
+		F00000000000000000000011 /* AuditEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuditEngine.swift; sourceTree = "<group>"; };
+		F00000000000000000000012 /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
+		F00000000000000000000013 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		F00000000000000000000014 /* InterfaceLanguage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceLanguage.swift; sourceTree = "<group>"; };
+		F00000000000000000000015 /* Localizable.strings */ = {isa = PBXVariantGroup; children = (F00000000000000000000016 /* en */, F00000000000000000000017 /* zh-Hans */,); name = Localizable.strings; sourceTree = "<group>"; };
+		F00000000000000000000016 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F00000000000000000000017 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		F00000000000000000000018 /* InfoPlist.strings */ = {isa = PBXVariantGroup; children = (F00000000000000000000019 /* en */, F00000000000000000000020 /* zh-Hans */,); name = InfoPlist.strings; sourceTree = "<group>"; };
+		F00000000000000000000019 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F00000000000000000000020 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		F00000000000000000000022 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F00000000000000000000023 /* DNSLeakProbe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DNSLeakProbe.swift; sourceTree = "<group>"; };
+		F00000000000000000000024 /* WebKitProfileProbe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebKitProfileProbe.swift; sourceTree = "<group>"; };
+		F00000000000000000000025 /* DeviceLocationProbe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceLocationProbe.swift; sourceTree = "<group>"; };
+
+		G00000000000000000000001 = {isa = PBXGroup; children = (G00000000000000000000002 /* Sources */, G00000000000000000000003 /* Products */, G00000000000000000000008 /* Resources */,); sourceTree = "<group>"; };
+		G00000000000000000000002 /* Sources */ = {isa = PBXGroup; children = (G00000000000000000000004 /* App */, G00000000000000000000005 /* Models */, G00000000000000000000007 /* Services */, G00000000000000000000006 /* Views */,); path = Sources; sourceTree = "<group>"; };
+		G00000000000000000000003 /* Products */ = {isa = PBXGroup; children = (F00000000000000000000006 /* MacNetworkAudit.app */,); name = Products; sourceTree = "<group>"; };
+		G00000000000000000000004 /* App */ = {isa = PBXGroup; children = (F00000000000000000000001 /* MacNetworkAuditApp.swift */, F00000000000000000000012 /* AppModel.swift */,); path = App; sourceTree = "<group>"; };
+		G00000000000000000000005 /* Models */ = {isa = PBXGroup; children = (F00000000000000000000002 /* CheckID.swift */, F00000000000000000000003 /* CheckResult.swift */, F00000000000000000000004 /* MonitorSettings.swift */, F00000000000000000000014 /* InterfaceLanguage.swift */,); path = Models; sourceTree = "<group>"; };
+		G00000000000000000000006 /* Views */ = {isa = PBXGroup; children = (F00000000000000000000005 /* DashboardView.swift */, F00000000000000000000013 /* SettingsView.swift */,); path = Views; sourceTree = "<group>"; };
+		G00000000000000000000007 /* Services */ = {isa = PBXGroup; children = (F00000000000000000000007 /* SystemChecks.swift */, F00000000000000000000008 /* HistoryStore.swift */, F00000000000000000000009 /* NetworkChecks.swift */, F00000000000000000000010 /* STUNProbe.swift */, F00000000000000000000011 /* AuditEngine.swift */, F00000000000000000000023 /* DNSLeakProbe.swift */, F00000000000000000000024 /* WebKitProfileProbe.swift */, F00000000000000000000025 /* DeviceLocationProbe.swift */,); path = Services; sourceTree = "<group>"; };
+		G00000000000000000000008 /* Resources */ = {isa = PBXGroup; children = (F00000000000000000000015 /* Localizable.strings */, F00000000000000000000018 /* InfoPlist.strings */, F00000000000000000000022 /* Assets.xcassets */,); path = Resources; sourceTree = "<group>"; };
+
+		T00000000000000000000001 /* MacNetworkAudit */ = {isa = PBXNativeTarget; buildConfigurationList = L00000000000000000000002 /* Build configuration list for PBXNativeTarget "MacNetworkAudit" */; buildPhases = (B00000000000000000000001 /* Sources */, B00000000000000000000002 /* Frameworks */, B00000000000000000000003 /* Resources */,); buildRules = (); dependencies = (); name = MacNetworkAudit; productName = MacNetworkAudit; productReference = F00000000000000000000006 /* MacNetworkAudit.app */; productType = "com.apple.product-type.application"; };
+
+		P00000000000000000000001 /* Project object */ = {isa = PBXProject; attributes = {BuildIndependentTargetsInParallel = 1; LastSwiftUpdateCheck = 2660; LastUpgradeCheck = 2660; TargetAttributes = {T00000000000000000000001 = {CreatedOnToolsVersion = 26.6; }; }; }; buildConfigurationList = L00000000000000000000001 /* Build configuration list for PBXProject "MacNetworkAudit" */; compatibilityVersion = "Xcode 14.0"; developmentRegion = en; hasScannedForEncodings = 0; knownRegions = (en, "zh-Hans", Base,); mainGroup = G00000000000000000000001; productRefGroup = G00000000000000000000003 /* Products */; projectDirPath = ""; projectRoot = ""; targets = (T00000000000000000000001 /* MacNetworkAudit */,); };
+
+		C00000000000000000000001 /* Debug project */ = {isa = XCBuildConfiguration; buildSettings = {ALWAYS_SEARCH_USER_PATHS = NO; CLANG_ENABLE_MODULES = YES; CLANG_ENABLE_OBJC_ARC = YES; MACOSX_DEPLOYMENT_TARGET = 13.0; SDKROOT = macosx; SUPPORTED_PLATFORMS = macosx; SWIFT_VERSION = 6.0; }; name = Debug; };
+		C00000000000000000000002 /* Release project */ = {isa = XCBuildConfiguration; buildSettings = {ALWAYS_SEARCH_USER_PATHS = NO; CLANG_ENABLE_MODULES = YES; CLANG_ENABLE_OBJC_ARC = YES; MACOSX_DEPLOYMENT_TARGET = 13.0; SDKROOT = macosx; SUPPORTED_PLATFORMS = macosx; SWIFT_VERSION = 6.0; }; name = Release; };
+		C00000000000000000000003 /* Debug target */ = {isa = XCBuildConfiguration; buildSettings = {ARCHS = arm64; ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon; CODE_SIGN_STYLE = Manual; ENABLE_APP_SANDBOX = NO; GENERATE_INFOPLIST_FILE = YES; INFOPLIST_KEY_CFBundleDisplayName = "Network Audit"; INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities"; INFOPLIST_KEY_NSLocationUsageDescription = "Compare one approximate location from macOS with the region estimated for your public IP. The coordinates are not saved or sent to GeoIP services."; MACOSX_DEPLOYMENT_TARGET = 13.0; PRODUCT_BUNDLE_IDENTIFIER = com.codex.MacNetworkAudit; PRODUCT_NAME = "$(TARGET_NAME)"; SUPPORTED_PLATFORMS = macosx; SWIFT_EMIT_LOC_STRINGS = YES; SWIFT_VERSION = 6.0; }; name = Debug; };
+		C00000000000000000000004 /* Release target */ = {isa = XCBuildConfiguration; buildSettings = {ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon; ARCHS = arm64; CODE_SIGN_STYLE = Manual; ENABLE_APP_SANDBOX = NO; GENERATE_INFOPLIST_FILE = YES; INFOPLIST_KEY_CFBundleDisplayName = "Network Audit"; INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities"; INFOPLIST_KEY_NSLocationUsageDescription = "Compare one approximate location from macOS with the region estimated for your public IP. The coordinates are not saved or sent to GeoIP services."; MACOSX_DEPLOYMENT_TARGET = 13.0; PRODUCT_BUNDLE_IDENTIFIER = com.codex.MacNetworkAudit; PRODUCT_NAME = "$(TARGET_NAME)"; SUPPORTED_PLATFORMS = macosx; SWIFT_EMIT_LOC_STRINGS = YES; SWIFT_VERSION = 6.0; }; name = Release; };
+
+		L00000000000000000000001 /* Build configuration list for PBXProject "MacNetworkAudit" */ = {isa = XCConfigurationList; buildConfigurations = (C00000000000000000000001, C00000000000000000000002,); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		L00000000000000000000002 /* Build configuration list for PBXNativeTarget "MacNetworkAudit" */ = {isa = XCConfigurationList; buildConfigurations = (C00000000000000000000003, C00000000000000000000004,); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+	};
+	rootObject = P00000000000000000000001 /* Project object */;
+}
