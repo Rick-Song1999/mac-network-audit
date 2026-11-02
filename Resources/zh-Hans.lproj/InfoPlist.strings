@@ -1,0 +1,3 @@
+"CFBundleDisplayName" = "网络风险监测";
+"CFBundleName" = "网络风险监测";
+"NSLocationUsageDescription" = "获取一次 macOS 提供的近似位置，与公网 IP 的估算地区比较；坐标不会保存或发送给 GeoIP 服务。";
