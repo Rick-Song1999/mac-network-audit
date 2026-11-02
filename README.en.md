@@ -6,7 +6,7 @@ A native SwiftUI app for monitoring network and system-environment risk signals.
 
 ## Get and build
 
-This repository contains source code. There is currently no prebuilt or notarized release. Build with Xcode 16 or later:
+This repository provides source code and an Apple Silicon (arm64) preview ZIP in [GitHub Releases](https://github.com/Rick-Song1999/mac-network-audit/releases). It is ad-hoc signed and not notarized with a Developer ID; macOS Gatekeeper may block it on first launch. You can also build it with Xcode 16 or later:
 
 1. Open `MacNetworkAudit.xcodeproj`.
 2. Select the `MacNetworkAudit` scheme and your Mac as the run destination.
@@ -55,7 +55,7 @@ See the [IPfastcheck API documentation](https://ipfastcheck.com/api) for its fie
 - Scan reports are not uploaded. Cloudflare Trace, ipinfo.io, ipapi.co, ipify, and IPfastcheck can see the public egress IP involved in each request. IPfastcheck receives available IPv4/IPv6 addresses; its API documentation says records may be retained for up to 180 days. The manual DNS test sends a random hostname query to dnsleak.dev, which can see the public IP and the resolver that queried its authoritative server; its API documentation says test results remain in memory for ten minutes. STUN probes contact Google and Cloudflare. The optional location comparison starts macOS Location Services only after you click and grant permission; device coordinates are not uploaded or saved and are compared in local memory with IP-based GeoIP estimates. DNS and WebKit probe details stay in app memory and are not written to the 48-hour IP history.
 - Risk levels combine local observations with third-party IP data. They are not universal safety scores and do not predict how a particular website will treat a connection. IP geolocation, network-type labels, and risk scores can be inaccurate.
 
-The current local build is ad-hoc signed and is not notarized with a Developer ID certificate.
+The preview release is ad-hoc signed and is not notarized with a Developer ID certificate.
 
 ## License
 
