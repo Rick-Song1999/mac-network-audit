@@ -6,7 +6,7 @@
 
 ## 获取与构建
 
-此仓库提供源代码；目前没有发布预编译或公证版本。使用 Xcode 16 或更新版本构建：
+此仓库提供源代码，并在 [GitHub Releases](https://github.com/Rick-Song1999/mac-network-audit/releases) 提供 Apple Silicon（arm64）预览版压缩包。该版本为 ad-hoc 签名，未进行 Developer ID 公证；首次运行可能被 macOS Gatekeeper 拦截。也可使用 Xcode 16 或更新版本自行构建：
 
 1. 打开 `MacNetworkAudit.xcodeproj`。
 2. 选择 `MacNetworkAudit` scheme 和本机作为运行目标。
@@ -61,7 +61,7 @@ IPfastcheck 字段、风险分段和记录缓存说明参见 [API 文档](https:
 - 不上传检测报告。Cloudflare Trace、ipinfo.io、ipapi.co、ipify 和 IPfastcheck 会看到当前请求涉及的公网出口 IP；IPfastcheck 查询可用的 IPv4 / IPv6 地址，接口文档说明其记录可能缓存最长 180 天。手动 DNS 检测把随机主机名查询发送到 dnsleak.dev；该服务可看到出口 IP 和向其权威服务器发出请求的解析器地址，其 API 说明测试结果在内存中保留十分钟。STUN 探测访问 Google 与 Cloudflare STUN。设备位置比较只在用户单独点击并授权后启动 macOS 定位服务；设备坐标不上传、不保存，仅在本机内存与 IP GeoIP 估算位置比较。DNS 与 WebKit 探测详情只保留在当前应用内存中，不写入 48 小时 IP 历史。
 - 风险等级结合本机观测和第三方 IP 资料；它不是通用安全评分，也不预测特定网站的处理结果。IP 地区、网络类型和风险分均可能不准确。
 
-当前本地构建采用 ad-hoc 签名，未进行 Developer ID 公证。源码依赖、检测边界和隐私说明见下文。
+预览版采用 ad-hoc 签名，未进行 Developer ID 公证。源码依赖、检测边界和隐私说明见下文。
 
 ## 许可证
 
