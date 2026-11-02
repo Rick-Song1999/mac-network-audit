@@ -1,0 +1,12 @@
+# Xcode and Swift build output
+/build/
+/DerivedData/
+/Resources/MacNetworkAudit-1024.png
+/Resources/MacNetworkAudit.icns
+*.xcuserstate
+xcuserdata/
+*.dSYM/
+*.xcarchive/
+
+# macOS metadata
+.DS_Store
