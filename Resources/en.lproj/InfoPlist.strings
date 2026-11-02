@@ -1,0 +1,3 @@
+"CFBundleDisplayName" = "Network Risk Monitor";
+"CFBundleName" = "Network Risk Monitor";
+"NSLocationUsageDescription" = "Compare one approximate location from macOS with the region estimated for your public IP. The coordinates are not saved or sent to GeoIP services.";
